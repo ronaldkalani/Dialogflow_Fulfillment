@@ -1,0 +1,56 @@
+# Ignore system files and temporary directories
+AppData/
+NTUSER.*
+*.blf
+*.regtrans-ms
+*.ini
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Ignore IDE and editor configuration files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Ignore Python environment directories
+env/
+venv/
+__pycache__/
+*.py[cod]
+
+# Ignore Anaconda and Miniconda directories
+.anaconda/
+.miniconda3/
+.anaconda3/
+
+# Ignore unnecessary application files
+.autogluon_env/
+secure-connect-event-data.zip
+
+# Ignore user-specific directories
+My Documents/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+
+# Ignore IntelliJ/Java/NetBeans files
+*.class
+*.java
+
+# Ignore output files
+TitanicPredictorOutput/
+TitanicPredictor_*/
+
+# Ignore project-specific data files
+*.csv
+*.xlsx
+*.pbix
